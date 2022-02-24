@@ -1,0 +1,58 @@
+/* Padding and Margin use em unit for responsive design */
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+/* "body{}" tells css that you want to use this font */
+body{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+/* ".hero-bg{}" tells it what you want to use. */
+.hero-bg{
+    background: url(https://pixelz.cc/wp-content/uploads/2018/11/wheat-field-uhd-4k-wallpaper.jpg);
+    padding-bottom: 6em;
+    background-position: 20% 60%;
+    text-align: right;
+    padding: 4em 0 20% 0;
+}
+/* You have to define the link you are using in a div ".hero-bg a" tells it that I want to use the A link I used in hero-bg */
+.hero-bg a {
+    text-decoration: underline;
+    color: black;
+    padding: 0 1em;
+}
+
+.welcome{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 2em;
+}
+
+.what-is {
+    text-align: center;
+    background-color: orange;
+    margin-top: -1.5em;
+    font-size: xx-large;
+    padding: 5em;
+}
+
+.what-does {
+text-align: center;
+font-size: xx-large;
+background-color: orange;
+margin-top: -1.5em;
+padding: 5em 0 3em;
+}
+
+.what-does a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.rock {
+    text-align: center;
+    padding: 20% 0 30% 0;
+    margin-top: 0;
+    background-color: orange;
+    font-size: xx-large;
+}
+
